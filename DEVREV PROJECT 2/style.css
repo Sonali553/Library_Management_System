@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: url("./libraryImg.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /*display:flex;
+    justify-content: center;
+    align-items: center;*/
+    position: absolute;
+    top:5%;
+    left :8%;
+}
+.HeadingText{
+    padding:0.7rem;
+}
+.hiddenR{
+    display: none;
+}
+.countText{
+     position: relative;
+     color: rgb(234, 92, 40);
+     font-size: x-large;
+     font-weight: bold;
+     top:23%;
+     left:23%;
+    
+}
+
+.Textcount{
+    left:84%;
+    top:3.5%;
+    position:absolute;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+.countBox{
+    position:absolute;
+    width: 50px;
+    height:45px;
+    left:90%;
+    top:2%;
+    background-color: white;
+    border-radius: 5px;
+}
+.search-input {
+    font-size: 2rem;
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+    background-color: 
+    #d5d1defe;
+    font-size: large;
+    font-weight: bold;
+  }
+.search-input {
+    border: none;
+    outline: none;
+    font-family: "Fira Sans", sans-serif;
+  }
+
+table ,th, td{
+    padding: 1rem;
+    border-collapse: collapse;
+}
+main.table{
+    width: 82vw;
+    height:90vh;
+    background-color: #fff5;
+    backdrop-filter: blur(7px);
+    border-radius: 0.8rem;
+    box-shadow: 0 .4rem .8rem #0005;
+    overflow : hidden;
+}
+.table__header{
+    width: 100%;
+    height:10%;
+    background-color: #fff4;
+    padding: .8rem 1rem;
+}
+.table__body{
+    width:95%;
+    max-height: calc(89% - .8rem);
+    background-color: #fffb;
+    margin:.8rem auto;
+    border-radius: .6rem;
+    overflow:auto;
+
+}
+.table__body::-webkit-scrollbar{
+    width:0.5rem;
+    height:0.5rem;
+}
+.table__body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.table__body:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+thead th{
+    position:sticky;
+    top:0;
+    left:0;
+    background-color:#d5d1defe;
+}
+tbody tr:nth-child(even){
+    background-color: #0000000e;
+}
+tbody tr:hover{
+    background-color:#fff6;
+}

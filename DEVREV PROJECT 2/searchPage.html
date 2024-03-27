@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Search Books</title>
+  </head>
+  <body>
+    <main class="table">
+      <section class="table__header">
+        <div class="HeadingText">
+          <h1>Search For Books</h1>
+        </div>
+        <div class="Textcount">count:</div>
+        <div class="countBox">
+          <div class="countText"></div>
+        </div>
+      </section>
+      <section class="table__body">
+        <table>
+          <thead>
+            <tr>
+              <th>
+                <input type="text" class="search-input" placeholder="S.NO" />
+              </th>
+              <th>
+                <input type="text" class="search-input" placeholder="BookName"/>
+              </th>
+              <th>
+                <input type="text" class="search-input" placeholder="Author" />
+              </th>
+              <th>
+                <input type="text" class="search-input" placeholder="Subject" />
+              </th>
+              <th>
+                <input type="text" class="search-input" placeholder="PublishDate"/>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Artificial Intelligence Revolution</td>
+              <td>Robin Li</td>
+              <td>AI</td>
+              <td>20 May 2020</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Machine Learning For Beginners</td>
+              <td>John Slavio</td>
+              <td>AI</td>
+              <td>1 January 2018</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Basic Electronics</td>
+              <td>Guruprasad K N</td>
+              <td>Electronics</td>
+              <td>17 June 1998</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Fluent Python</td>
+              <td>Lucanio Ramalho</td>
+              <td>Programming</td>
+              <td>9 June 1998</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Electronic Components</td>
+              <td>Manoj Yadav</td>
+              <td>Electronics</td>
+              <td>1 January 2016</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Web Designer Guide</td>
+              <td>Rob Antony</td>
+              <td>IT</td>
+              <td>4 March 2021</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Learning Engineering Practice</td>
+              <td>James P Trevelayan</td>
+              <td>Civil</td>
+              <td>18 December 2020</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>The Wealth Of Economics</td>
+              <td>Adam Smith</td>
+              <td>Economy</td>
+              <td>9 march 1776</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Indian Economics</td>
+              <td>SankarGanesh</td>
+              <td>Economy</td>
+              <td>23 April 1988</td>
+            </tr>
+
+            <tr>
+              <td>10</td>
+              <td>Engineering Mechanics</td>
+              <td>Vandana Somkuwar</td>
+              <td>Mechanical</td>
+              <td>9 July 2009</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>Web Design With HTML & CSS</td>
+              <td>Prem Kumar</td>
+              <td>IT</td>
+              <td>15 August 2014</td>
+            </tr>
+          
+            <tr class="hiddenR">
+              <td>12</td>
+              <td>Programming With Java</td>
+              <td>Balagurusamy E</td>
+              <td>programming</td>
+              <td>9 September 1998</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>13</td>
+              <td>Python For Beginners</td>
+              <td>Ike Beck</td>
+              <td>Programming</td>
+              <td>9 February 2023</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>14</td>
+              <td>Economics 101</td>
+              <td>Alfred Mill</td>
+              <td>Economy</td>
+              <td>2 January 2016</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>15</td>
+              <td>Analog Communication Systems</td>
+              <td>Dr.Sanjay Sharma</td>
+              <td>Electronics</td>
+              <td>26 October 2009</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>16</td>
+              <td>Freakonomics</td>
+              <td>Adam Smith</td>
+              <td>Economy</td>
+              <td>7 November 2005</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>17</td>
+              <td>Digital Communication Systems</td>
+              <td>Katre J S</td>
+              <td>Electronics</td>
+              <td>16 February 2008</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>18</td>
+              <td>Big Data Analytics</td>
+              <td>Vijayalakshmi M</td>
+              <td>IT</td>
+              <td>4 July 2016</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>19</td>
+              <td>Cloud Computing</td>
+              <td>Dr.A.Priya</td>
+              <td>IT</td>
+              <td>5 May 2021</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>20</td>
+              <td>DBMS Practical Approach</td>
+              <td>S.Chand</td>
+              <td>IT</td>
+              <td>5 August 2010</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>21</td>
+              <td>ML using Python</td>
+              <td>Dinesh Kumar U</td>
+              <td>AI</td>
+              <td>1 January 2019</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>22</td>
+              <td>Digital Signal Processing</td>
+              <td>Salaivahan S</td>
+              <td>Electronics</td>
+              <td>1 May 2013</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>23</td>
+              <td>Data Structures In Python</td>
+              <td>Roberto Tamassia</td>
+              <td>Programming</td>
+              <td>5 July 2013</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>24</td>
+              <td>SQL For Beginners</td>
+              <td>Fawn Watson</td>
+              <td>IT</td>
+              <td>26 September 2019</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>25</td>
+              <td>Internal Combusion Engine</td>
+              <td>Mathur M L</td>
+              <td>Mechanical</td>
+              <td>19 March 1985</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>26</td>
+              <td>Basics Of Civil</td>
+              <td>Rashid Khan</td>
+              <td>Civil</td>
+              <td>4 March 2019</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>27</td>
+              <td>Programming In C</td>
+              <td>Rizwan Ahmed P</td>
+              <td>Programming</td>
+              <td>5 December 1978</td>
+            </tr>
+
+            <tr class="hiddenR">
+              <td>28</td>
+              <td>Control Systems Engineering</td>
+              <td>Nagrath I J</td>
+              <td>Electronics</td>
+              <td>17 December 2010</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>29</td>
+              <td>Data Science and Ml</td>
+              <td>Dr.N.Meenakshi</td>
+              <td>Data Science</td>
+              <td>22 November 2019</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>30</td>
+              <td>Foundations Of Data Science</td>
+              <td>Dhotre I A</td>
+              <td>Data Science</td>
+              <td>6 April 2013</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>31</td>
+              <td>Introduction to Robotics</td>
+              <td>John J. Craig</td>
+              <td>Mechanical</td>
+              <td>5 March 2012</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>32</td>
+              <td>Geotechnical Engineering</td>
+              <td> Donald P. Coduto</td>
+              <td>Civil</td>
+              <td>3 December 2016</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>33</td>
+              <td>Concepts of Modern Physics</td>
+              <td>rthur Beiser </td>
+              <td>Physics</td>
+              <td>3 September 2013</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>34</td>
+              <td>The Art of Computer Programming</td>
+              <td>Donald E. Knuth</td>
+              <td>IT</td>
+              <td>3 September 2013</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>35</td>
+              <td>Fundamentals of Physics</td>
+              <td>David Halliday</td>
+              <td>Physics</td>
+              <td>20 March 2017</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>36</td>
+              <td>"R for Data Science</td>
+              <td>Hadley Wickham</td>
+              <td>Programming</td>
+              <td>2 September 2017</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>37</td>
+              <td>The Undercover Economist</td>
+              <td>Tim Harford</td>
+              <td>Economy</td>
+              <td>1 April 2005</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>38</td>
+              <td>The Feynman Lectures on Physics</td>
+              <td>Robert B. Leighton</td>
+              <td>Physics</td>
+              <td>18 March 2016</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>39</td>
+              <td>Concepts of Modern Physics</td>
+              <td>Arthur Beiser</td>
+              <td>Physics</td>
+              <td>5 April 2013</td>
+            </tr>
+            <tr class="hiddenR">
+              <td>40</td>
+              <td>Thinking, Fast and Slow</td>
+              <td>Daniel Kahneman</td>
+              <td>Economy</td>
+              <td>22 October 2011</td>
+            </tr>
+        
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <script src="./searchFunction.js"></script>
+    <script src ="./scrollFunction.js"></script>
+  </body>
+</html>
